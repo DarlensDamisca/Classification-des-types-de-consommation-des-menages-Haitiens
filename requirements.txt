@@ -1,23 +1,22 @@
-# Core libraries
-pandas>=2.0.0
-numpy>=1.26.0
-
-# Visualization
-matplotlib>=3.8.0
-seaborn>=0.13.0
+# Core Data Science Libraries
+numpy>=1.21.0
+pandas>=1.3.0
 
 # Machine Learning
-scikit-learn>=1.3.0
-xgboost>=2.0.0
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+imbalanced-learn>=0.9.0
 
-# Jupyter environment
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Utilities
+joblib>=1.1.0
+
+# Optional: For Jupyter Notebooks
 jupyter>=1.0.0
-notebook>=7.0.0
+ipykernel>=6.0.0
 
-# Utilitaires
-python-dateutil>=2.9.0
-
-
-
-# Installation des dépendances
-pip install -r requirements.txt
+# Optional: For Google Colab compatibility
+google-colab>=1.0.0
